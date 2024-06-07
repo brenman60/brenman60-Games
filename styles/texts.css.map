@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "",
-"sources": [],
-"names": [],
-"file": "texts.css"
-}
+{"version":3,"sources":["../sass/texts.scss","texts.css"],"names":[],"mappings":"AAEA;EACI,0EAHO;ACEX","file":"texts.css"}

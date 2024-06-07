@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAA;;;;EAIE;AAUF,kBAAmB;EACjB,UAAU,EAAE,OAAa;EACzB,UAAU,EAAE,iDAAiD",
-"sources": ["../sass/colors.scss"],
-"names": [],
-"file": "colors.css"
-}
+{"version":3,"sources":["../sass/colors.scss","colors.css"],"names":[],"mappings":"AAAA;;;;CAAA;AAcA;EACE,2BAAA;EACA,6DAAA;ACRF","file":"colors.css"}

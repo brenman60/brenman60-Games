@@ -4,7 +4,12 @@ Possible Color Pallates:
 2. https://coolors.co/b39c4d-768948-607744-34623f-1e2f23
 */
 .defaultGradientBG {
-  background: #1d2e28;
-  background: linear-gradient(42deg, #1D2E28 47%, #212224 100%); }
+  background: rgb(29, 46, 40);
+  background: linear-gradient(42deg, #1D2E28 47%, #212224 100%);
+}
 
-/*# sourceMappingURL=universal.css.map */
+#pageHeader {
+  width: 100%;
+  height: 550px;
+  position: static;
+}/*# sourceMappingURL=universal.css.map */
