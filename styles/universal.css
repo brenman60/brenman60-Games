@@ -8,6 +8,17 @@ Possible Color Pallates:
   background: linear-gradient(42deg, #1D2E28 47%, #212224 100%);
 }
 
+.titleText {
+  font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+}
+
+/* Classes */
+.center {
+  text-align: center;
+  vertical-align: center;
+}
+
+/* Ids */
 #pageHeader {
   width: 100%;
   height: 550px;
