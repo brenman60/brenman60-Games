@@ -1,0 +1,32 @@
+/*
+Possible Color Pallates:
+1. https://coolors.co/066839-0a5c36-0f5132-14452f-18392b-1d2e28-212224
+2. https://coolors.co/b39c4d-768948-607744-34623f-1e2f23
+*/
+.defaultGradientBG {
+  background: rgb(29, 46, 40);
+  background: linear-gradient(42deg, #1D2E28 47%, #212224 100%);
+}
+
+.titleText {
+  font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+}
+
+/* Classes */
+.center {
+  text-align: center;
+  vertical-align: center;
+}
+
+.centerItem {
+  top: 50%;
+  left: 50%;
+}
+
+/* Ids */
+#pageBackground {
+  z-index: -99999;
+  width: 100%;
+  height: 550px;
+  position: absolute;
+}/*# sourceMappingURL=universal.css.map */
