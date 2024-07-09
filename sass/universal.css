@@ -27,6 +27,6 @@ Possible Color Pallates:
 #pageBackground {
   z-index: -99999;
   width: 100%;
-  height: 550px;
+  height: 100%;
   position: absolute;
 }/*# sourceMappingURL=universal.css.map */
