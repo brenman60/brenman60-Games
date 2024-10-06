@@ -1,0 +1,26 @@
+@import "colors.scss";
+
+$mainFont: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+
+.titleText {
+    font-family: $mainFont;
+    text-align: center;
+}
+
+.headerText {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 0;
+
+    font-family: $mainFont;
+    font-weight: bolder;
+    text-align: center;
+    font-size: clamp(1em, 2.25rem, 2vw);
+
+    transition: background-color 0.3s ease;
+}
+
+.headerText:hover {
+    background-color: #286e559d;
+}

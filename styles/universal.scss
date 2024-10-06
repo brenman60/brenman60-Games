@@ -1,0 +1,53 @@
+@import "colors.scss";
+@import "texts.scss";
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Classes */
+.center {
+  text-align: center;
+  vertical-align: center;
+}
+
+.centerItem {
+  position: relative;
+  text-align: center;
+  top: 50%;
+}
+
+.removeWhitespace {
+  margin: 0;
+  padding: 0;
+}
+
+.headerItem {
+  display: inline-block;
+  align-content: center;
+  margin: 0 3vw 0 3vw;
+  width: clamp(200px, 20vw, 600px);
+  height: 100%;
+}
+
+/* Ids */
+#pageHeader {
+  width: 100%;
+  height: 60px;
+}
+
+#headerList {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+#pageBackground {
+  z-index: -99999;
+  width: 100%;
+  height: 550px;
+  position: absolute;
+}

@@ -1,0 +1,40 @@
+$white: #FFFFFF;
+$black: #000000;
+$lightGray: #e6e6e6;
+$darkGray: #333333;
+$primaryGreen: #4CAF50;
+$secondaryGreen: #81C784;
+
+
+body {
+  background-color: $lightGray;
+  color: $darkGray;
+}
+
+header {
+  background-color: $primaryGreen;
+  color: $white;
+}
+
+footer {
+  background-color: $darkGray;
+  color: $white;
+}
+
+h1, h2, h3 {
+  color: $black;
+}
+
+a {
+  color: $secondaryGreen;
+}
+
+button.primary {
+  background-color: $primaryGreen;
+  color: $white;
+}
+
+button.secondary {
+  background-color: $darkGray;
+  color: $white;
+}
